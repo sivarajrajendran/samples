@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="print datetime" basedir="." default="today">
-	<target name="today">
+	<target name="today" description="Prints today time in INDIA and US EAST">
 		<tstamp>
 			<format property="today_india" pattern="dd/MM/yyyy hh:mm aa" timezone="GMT+05:30" />
 		</tstamp>
