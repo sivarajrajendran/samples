@@ -1,2 +1,3 @@
 # samples
-Sample useful codes 
+This project is keep some Sample useful codes and simple utilities safe 
+ 
