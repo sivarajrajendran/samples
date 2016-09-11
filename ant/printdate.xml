@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="print datetime" basedir="." default="today">
+	<target name="today">
+		<tstamp>
+			<format property="today_india" pattern="dd/MM/yyyy hh:mm aa" timezone="GMT+05:30" />
+		</tstamp>
+		<echo message="INDIA TIME: ${today_india}"/>
+		<tstamp>
+			<format property="today_us" pattern="dd/MM/yyyy hh:mm aa" timezone="GMT-04:00" />
+		</tstamp>
+		<echo message="US EASTERN TIME: ${today_us}"/>
+	</target>
+</project>
